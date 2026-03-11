@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cust_001",
+    "name": "Sarah Johnson",
+    "device": "iPhone 14 Pro",
+    "phone": "(555) 123-4567",
+    "email": "sarah.johnson@email.com",
+    "last_issue": "Email sync problems",
+    "appointment_type": "Technical Support",
+    "notes": "Recurring customer, prefers step-by-step guidance",
+    "issue_history": [
+      {
+        "date": "2024-01-15",
+        "issue": "iCloud backup not working",
+        "resolution": "Storage space issue - upgraded plan",
+        "technician": "Scott"
+      },
+      {
+        "date": "2024-01-28",
+        "issue": "Email sync problems",
+        "resolution": "Recreated email account with app-specific password",
+        "technician": "Marcus"
+      }
+    ]
+  },
+  {
+    "id": "cust_002", 
+    "name": "Mike Chen",
+    "device": "iPhone 13 mini",
+    "phone": "(555) 987-6543",
+    "email": "mike.chen@gmail.com",
+    "last_issue": "Suspicious text messages",
+    "appointment_type": "Security Consultation",
+    "notes": "First-time customer, needs education on scam detection",
+    "issue_history": [
+      {
+        "date": "2024-01-30",
+        "issue": "Received phishing text claiming to be from bank",
+        "resolution": "Educated on red flags, blocked sender",
+        "technician": "In Progress"
+      }
+    ]
+  },
+  {
+    "id": "cust_003",
+    "name": "Emily Davis", 
+    "device": "iPhone 15",
+    "phone": "(555) 456-7890",
+    "email": "emily.davis@icloud.com",
+    "last_issue": "Missing apps after update",
+    "appointment_type": "Technical Support", 
+    "notes": "Tech-savvy but frustrated with iOS changes",
+    "issue_history": [
+      {
+        "date": "2024-01-25",
+        "issue": "Confused by iOS 17 interface changes",
+        "resolution": "Walkthrough of new App Library feature",
+        "technician": "Scott"
+      }
+    ]
+  }
+]

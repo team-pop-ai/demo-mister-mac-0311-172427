@@ -1,0 +1,99 @@
+{
+  "email_setup_issues": {
+    "title": "iPhone Email Setup & Sync Problems",
+    "common_causes": [
+      "Incorrect server settings after iOS update",
+      "Two-factor authentication blocking old passwords", 
+      "Mail account deleted during update",
+      "iCloud mail sync disabled",
+      "Insufficient storage space"
+    ],
+    "standard_resolution_steps": [
+      {
+        "step": 1,
+        "action": "Verify account exists",
+        "details": "Settings > Mail > Accounts - check if email account is listed"
+      },
+      {
+        "step": 2, 
+        "action": "Check server settings",
+        "details": "Gmail: imap.gmail.com (incoming), smtp.gmail.com (outgoing). Yahoo: imap.mail.yahoo.com"
+      },
+      {
+        "step": 3,
+        "action": "Generate app-specific password",
+        "details": "If 2FA enabled, must use app-specific password instead of regular password"
+      },
+      {
+        "step": 4,
+        "action": "Delete and re-add account", 
+        "details": "Last resort - remove account completely, restart phone, re-add with correct settings"
+      }
+    ]
+  },
+  "scam_detection": {
+    "title": "Identifying Scam Calls & Texts",
+    "red_flags": [
+      "Urgent language ('act now', 'limited time', 'immediate action required')",
+      "Requests for passwords, SSN, or banking info via text/call",
+      "Threatening account suspension or legal action",
+      "Links to non-official domains (app1e.com vs apple.com)",
+      "Poor grammar or spelling errors",
+      "Unsolicited contact claiming you won something"
+    ],
+    "verification_steps": [
+      {
+        "step": 1,
+        "action": "Check sender carefully",
+        "details": "Real Apple messages come from specific official numbers, not random mobile numbers"
+      },
+      {
+        "step": 2,
+        "action": "Verify independently", 
+        "details": "Call the company directly using official phone number from their website"
+      },
+      {
+        "step": 3,
+        "action": "Check URL domains",
+        "details": "apple.com is real, app1e.com or appl3.com are fake. Look for subtle misspellings"
+      },
+      {
+        "step": 4,
+        "action": "Never provide sensitive info",
+        "details": "Apple/banks will never ask for passwords or SSN via text or unsolicited calls"
+      }
+    ]
+  },
+  "missing_apps_ios": {
+    "title": "Finding Missing Apps After iOS Update",
+    "common_locations": [
+      "App Library (swipe left past last home screen page)",
+      "Search (swipe down on home screen)",
+      "Hidden in folders or different home screen pages",
+      "Offloaded (icon gray with cloud symbol)",
+      "Restrictions/Screen Time settings may have hidden them"
+    ],
+    "resolution_steps": [
+      {
+        "step": 1,
+        "action": "Check App Library",
+        "details": "Swipe left past the last home screen to access App Library, apps auto-organized by category"
+      },
+      {
+        "step": 2,
+        "action": "Use Search",
+        "details": "Swipe down on home screen, type app name - will show if installed and where it's located"
+      },
+      {
+        "step": 3,
+        "action": "Check if offloaded",
+        "details": "Settings > General > iPhone Storage - shows offloaded apps that can be re-downloaded"
+      },
+      {
+        "step": 4,
+        "action": "Restore to home screen",
+        "details": "Long press app in App Library > Add to Home Screen, or drag to desired location"
+      }
+    ]
+  }
+}
